@@ -34,7 +34,6 @@ fn main(){
     
     for i in 0..outputy as usize{
         for j in 0..outputx as usize{
-            //print!("{}, ", arr[i][j]);
             if arr[i][j] < border2{
                 print!("#");
             }

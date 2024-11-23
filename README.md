@@ -15,6 +15,14 @@
 Original image:  
 ![input-image](high_seas.webp)
 
+Command:
+```bash
+cargo run high_seas.webp 500 1 80 32  
+```
+
+Black and white image:
+![bw-image](output_example.jpg)
+
 Generated ASCII art:  
 ```
                                               ############## ############## ##  
@@ -47,49 +55,24 @@ Generated ASCII art:
                                ######  #                                             
 ```
 
-Generated black-and-white image:  
-![output-bw](output-bw.jpg)
 
 ## Requirements
 
 - Rust (version 1.70 or later)
-- Rust libraries: `image`, `termion`
+- Rust libraries: `image`
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ascii_art.git
+   git clone https://github.com/piter231/ascii_art.git
    cd ascii_art
    ```
-
-2. Build the project:
+2. Run the program:
    ```bash
-   cargo build --release
+   cargo run <input-file> <black_and_white_image_bias> <ascii_art_bias> <x_dimension_of_output> <y_dimension_of_output>
    ```
 
-3. Run the program:
-   ```bash
-   cargo run --release -- <input-file> --ascii --output <output-file>
-   ```
-
-## Usage
-
-### Command-Line Options
-- `--ascii`: Generate ASCII art from the input image.
-- `--bw`: Generate a black-and-white version of the input image.
-- `--output <output-file>`: Specify the output file for the generated result.
-
-### Example Commands
-Generate ASCII art and save it to a file:
-```bash
-cargo run --release -- input.jpg --ascii --output output.txt
-```
-
-Generate a black-and-white version of an image:
-```bash
-cargo run --release -- input.jpg --bw --output output-bw.jpg
-```
 
 ## License
 
