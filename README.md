@@ -20,7 +20,7 @@ Command:
 cargo run high_seas.webp 500 1 80 32  
 ```
 
-Black and white image:
+Black and white image:  
 ![bw-image](output_example.jpg)
 
 Generated ASCII art:  
@@ -72,7 +72,23 @@ Generated ASCII art:
    ```bash
    cargo run <input-file> <black_and_white_image_bias> <ascii_art_bias> <x_dimension_of_output> <y_dimension_of_output>
    ```
+---
 
+## **Contributing**
+Contributions are welcome!  
+1. Fork the repository.  
+2. Create a new branch:  
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes and push the branch:  
+   ```bash
+   git commit -m "Add new feature"
+   git push origin feature-name
+   ```
+4. Open a pull request.
+
+---
 
 ## License
 
