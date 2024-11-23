@@ -13,7 +13,7 @@
 ## Example
 
 Original image:  
-![input-image](input.jpg)
+![input-image](high_seas.webp)
 
 Generated ASCII art:  
 ```
