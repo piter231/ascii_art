@@ -17,7 +17,7 @@ Original image:
 
 Command:
 ```bash
-cargo run high_seas.webp 500 1 80 32  
+cargo run high_seas.webp 500 1 80 
 ```
 
 Black and white image:  
@@ -70,7 +70,7 @@ Generated ASCII art:
    ```
 2. Run the program:
    ```bash
-   cargo run <input-file> <black_and_white_image_bias> <ascii_art_bias> <x_dimension_of_output> <y_dimension_of_output>
+   cargo run <input-file> <black_and_white_image_bias> <ascii_art_bias> <x_dimension_of_output>
    ```
 ---
 
